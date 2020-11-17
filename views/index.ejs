@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <form action="/" method="post">
+            <input name="state" type="text" class="state-input" placeholder="Enter a state" required>
+            <input type="submit" class="info-button" value="Get info for the state">
+            </form>
+            <p><%=state%></p>
+            <p class="cases">Cases: <%=cases%></p>
+            <p class="deaths">Deaths: <%=deaths%></p>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
